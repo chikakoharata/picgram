@@ -64,4 +64,5 @@ gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
 # rails 5.1以降のため
 gem 'devise', '~> 4.6.1'
-
+gem 'carrierwave', '~> 1.0'
+gem "mini_magick"
