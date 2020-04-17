@@ -62,8 +62,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
-# rails 5.1以降のため
 gem 'devise', '~> 4.6.1'
 gem 'carrierwave', '~> 1.0'
 gem "mini_magick"
-gem "aws-sdk-s3", require: false
+gem 'fog-aws'
